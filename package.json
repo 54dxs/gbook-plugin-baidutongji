@@ -1,0 +1,37 @@
+{
+  "name": "gbook-plugin-baidutongji",
+  "version": "1.0.1",
+  "description": "百度统计",
+  "main": "index.js",
+  "engines": {
+    "gbook": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/54dxs/gbook-plugin-baidutongji.git"
+  },
+  "keywords": [
+    "统计",
+    "百度统计",
+    "gbook",
+    "gbook插件"
+  ],
+  "author": "深情小建",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/54dxs/gbook-plugin-baidutongji/issues"
+  },
+  "homepage": "https://github.com/54dxs/gbook-plugin-baidutongji#readme",
+  "gbook": {
+    "properties": {
+      "url": {
+        "type": "string",
+        "default": "",
+        "title": "百度统计URL"
+      }
+    }
+  }
+}
